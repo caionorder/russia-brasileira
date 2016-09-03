@@ -9,29 +9,30 @@ var elementos = document.getElementsByTagName('*'),
             replace:'Rússia Brasileira'
         },
         {
-            search:/em Cascavel/gi,
-            replace:'na Rússia Brasileira'
+            search:/Cascavel/gi,
+            replace:'Rússia Brasileira'
         },
         {
-            search:/em Londrina/gi,
-            replace:'na Rússia Brasileira'
+            search:/Londrina/gi,
+            replace:'Rússia Brasileira'
         },
         {
-            search:/em Maringa/gi,
-            replace:'na Rússia Brasileira'
+            search:/Maringa/gi,
+            replace:'Rússia Brasileira'
         },
         {
-            search:/em Curitiba/gi,
-            replace:'na Rússia Brasileira'
+            search:/Curitiba/gi,
+            replace:'Rússia Brasileira'
         },
         {
-            search:/em Umuarama/gi,
-            replace:'na Rússia Brasileira'
+            search:/Umuarama/gi,
+            replace:'Rússia Brasileira'
         },
     ]
 
 
 for (var x = strings.length - 1; x >= 0; x--) {
+
     for (var i = 0; i < elementos.length; i++) {
         var elemento = elementos[i];
 
